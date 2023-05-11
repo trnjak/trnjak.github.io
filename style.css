@@ -1,0 +1,77 @@
+@font-face {
+    font-family: BeachSound;
+    src: url("fonts/BeachSound.otf") format("opentype");
+}
+@font-face {
+    font-family: TimesNewRomanB;
+    src: url("fonts/TimesNewRomanB.otf") format("opentype");
+}   
+
+*{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: #000009;
+}
+img{
+    padding: 3px;
+    vertical-align: middle;
+}
+h1{
+    font-family: BeachSound;
+    text-align: center;
+    font-size: 40px;
+    margin: 1 1 1 1;
+}
+h2{
+    font-family: BeachSound;
+}
+body{
+    background: #D68FD6 center repeat;
+    overflow: auto;
+}
+a, p{
+    font-size: medium;
+}
+
+.titleHeader{
+    font-family: BeachSound;
+    text-decoration: none;
+    cursor: text;
+    font-size: 50px;
+}
+
+.container{
+    display: grid;
+    justify-content: center;
+    grid-auto-flow: column;
+}
+
+.content {
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 30px;
+    background-color: #D68FD6;
+    padding: 13px;
+    border: 10px #000009 solid;
+}
+
+@media only screen and (max-width: 900px) {
+    .container {
+        grid-auto-flow: unset;
+        margin-left: 25%;
+        margin-right: 25%;
+     }
+    .content {
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+}
+
+.center{
+    text-align: center;
+}
+
+.webring img{
+    width: 88px;
+    height: 31px;
+}
