@@ -13,13 +13,15 @@ body{
 }
 p{
     font-family: monospace;
-    font-size: 18px;
+    font-size: 16px;
     text-align: justify;
+}
+ul{
+    font-size: 14px;
 }
 .title{
     font-family: BeachSound;
     font-size: 50px;
-    margin-top: 15%;
     text-align: center;
 }
 .quote{
@@ -30,14 +32,9 @@ p{
 .quote a{
     color: #E0D6DE;
 }
-.container{
-    display: grid;
-    justify-content: center;
-    grid-auto-flow: column;
-}
 .content{
-    margin-left: 25%;
-    margin-right: 25%;
+    margin-left: 20%;
+    margin-right: 20%;
     margin-top: 30px;
     padding: 13px;
     background-color: #E0D6DE;
@@ -48,9 +45,18 @@ p{
     font-family: BeachSound;
     text-align: center;
 }
+.content a{
+    color: #601C5C;
+}
 @media only screen and (max-width: 900px){
     .content{
         margin-left: 3%;
         margin-right: 3%;
     }
+}
+.bottom{
+    margin-top: 1%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
 }
