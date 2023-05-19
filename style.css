@@ -23,5 +23,14 @@ body{
     grid-auto-flow: column;
 }
 .content{
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 30px;
+    padding: 13px;
+    background-color: #E0D6DE;
+    color: #601C5C;
     font-family: monospace;
+}
+.content h1{
+    text-align: center;
 }
