@@ -11,6 +11,11 @@ body{
     color: #E0D6DE;
     font-weight: 600;
 }
+p{
+    font-family: monospace;
+    font-size: 18px;
+    text-align: justify;
+}
 .title{
     font-family: BeachSound;
     font-size: 50px;
