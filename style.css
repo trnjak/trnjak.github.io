@@ -17,6 +17,14 @@ body{
     margin-top: 15%;
     text-align: center;
 }
+.quote{
+    margin-top: -1%;
+    font-family: BeachSound;
+    font-style: italic;
+}
+.quote a{
+    color: #E0D6DE;
+}
 .container{
     display: grid;
     justify-content: center;
@@ -31,6 +39,13 @@ body{
     color: #601C5C;
     font-family: monospace;
 }
-.content h1{
+.content h1, h2{
+    font-family: BeachSound;
     text-align: center;
+}
+@media only screen and (max-width: 900px){
+    .content{
+        margin-left: 3%;
+        margin-right: 3%;
+    }
 }
