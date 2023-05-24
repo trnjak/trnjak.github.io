@@ -24,10 +24,10 @@ ul{
     font-size: 50px;
     text-align: center;
 }
-.quote{
-    margin-top: -1%;
-    font-family: BeachSound;
-    font-style: italic;
+.secret{
+    color: #E0D6DE;
+    text-decoration: none;
+    cursor: text;
 }
 .quote a{
     color: #E0D6DE;
