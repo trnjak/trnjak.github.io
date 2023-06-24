@@ -2,61 +2,33 @@
     font-family: BeachSound;
     src: url("fonts/BeachSound.otf") format("opentype");
 }
-@font-face{
-    font-family: TimesNewRomanB;
-    src: url("fonts/TimesNewRomanB.otf") format("opentype");
-} 
+*{
+    color: #FFFFFF;
+    font-family: monospace;
+    font-size: 110%;
+}
 body{
-    background-color: #601C5C;
-    color: #E0D6DE;
-    font-weight: 600;
+    background-image: url("img/background.png");
+    background-color: #303030;
+    background-position: top;
+    background-repeat: no-repeat;
 }
-p{
-    font-family: monospace;
-    font-size: 16px;
-    text-align: justify;
+.topnav {
+    margin: 5% 10% 5% 10%;
+    overflow: hidden;
 }
-ul{
-    font-size: 14px;
-}
-.title{
-    font-family: BeachSound;
-    font-size: 50px;
+.topnav a{
+    float: left;
+    font-family: Georgia;
     text-align: center;
-}
-.secret{
-    color: #E0D6DE;
+    padding: 14px 16px;
     text-decoration: none;
-    cursor: text;
 }
-.quote a{
-    color: #E0D6DE;
+.mainnav{
+    margin-right: 5%;
+    font-size: 200%;
 }
-.content{
-    margin-left: 20%;
-    margin-right: 20%;
-    margin-top: 30px;
-    padding: 13px;
-    background-color: #E0D6DE;
-    color: #601C5C;
-    font-family: monospace;
-}
-.content h1, h2{
-    font-family: BeachSound;
-    text-align: center;
-}
-.content a{
-    color: #601C5C;
-}
-@media only screen and (max-width: 900px){
-    .content{
-        margin-left: 3%;
-        margin-right: 3%;
-    }
-}
-.bottom{
+.othernav{
     margin-top: 1%;
-    display: flex;
-    justify-content: center;
-    text-align: center;
+    font-size: 125%;
 }
