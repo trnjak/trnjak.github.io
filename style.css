@@ -10,26 +10,25 @@
 body{
     background-image: url("img/background.png");
     background-color: #303030;
-    background-position: top;
-    background-repeat: no-repeat;
-    background-size: 100% auto;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
 }
 .topnav {
-    margin: 5% 10% 5% 10%;
+    margin: 100px 200px 100px 200px;
     overflow: hidden;
 }
 .topnav a{
     float: left;
     font-family: Georgia;
     text-align: center;
-    padding: 14px 16px;
+    padding: 15px 20px;
     text-decoration: none;
 }
 .mainnav{
-    margin-right: 5%;
     font-size: 200%;
 }
 .othernav{
-    margin-top: 1%;
+    margin-top: 10px;
     font-size: 125%;
 }
