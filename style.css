@@ -12,6 +12,7 @@ body{
     background-color: #303030;
     background-position: top;
     background-repeat: no-repeat;
+    background-size: 100% auto;
 }
 .topnav {
     margin: 5% 10% 5% 10%;
