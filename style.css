@@ -4,7 +4,6 @@
 }
 *{
     font-family: Georgia;
-    font-size: 110%;
 }
 body{
     background-color: #55194d;
@@ -38,8 +37,14 @@ body{
     background-color: #ffffff;
     color: #55194d;
     margin: 0px 115px 0px 115px;
-    padding: 100px;
+    padding: 50px;
     text-align: justify;
+}
+@media screen and (max-width: 900px) {
+    .content{
+        margin: 0px 15px 0px 15px;
+        padding: 50px;
+    }
 }
 .content a{
     color: #55194d;
