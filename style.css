@@ -37,13 +37,13 @@ body{
     background-color: #ffffff;
     color: #55194d;
     margin: 0px 115px 0px 115px;
-    padding: 50px;
+    padding: 25px;
     text-align: justify;
 }
 @media screen and (max-width: 900px) {
     .content{
         margin: 0px 15px 0px 15px;
-        padding: 50px;
+        padding: 25px;
     }
 }
 .content a{
