@@ -6,20 +6,20 @@
     font-family: Georgia;
 }
 body{
-    background-color: #55194d;
+    background-color: #270722;
     background-position: center center;
     background-attachment: fixed;
     background-size: cover;
-    color: #ffffff;
+    color: #EDD9A3;
 }
 .topnav {
     margin: 0px 100px 0px 100px;
     position: relative;
     overflow: hidden;
-    color: #ffffff;
+    color: #EDD9A3;
 }
 .topnav a{
-    color: #ffffff;
+    color: #EDD9A3;
     float: left;
     font-family: BeachSound;
     text-align: center;
@@ -34,8 +34,8 @@ body{
     font-size: 125%;
 }
 .content{
-    background-color: #ffffff;
-    color: #55194d;
+    background-color: #EDD9A3;
+    color: #270722;
     margin: 0px 115px 0px 115px;
     padding: 25px;
     text-align: justify;
@@ -47,5 +47,5 @@ body{
     }
 }
 .content a{
-    color: #55194d;
+    color: #EDD9A3;
 }
