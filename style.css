@@ -1,6 +1,6 @@
 @font-face{
-    font-family: BeachSound;
-    src: url("fonts/BeachSound.otf") format("opentype");
+    font-family: LeagueGothic;
+    src: url("fonts/LeagueGothic.otf") format("opentype");
 }
 *{
     font-family: Georgia;
@@ -21,17 +21,17 @@ body{
 .topnav a{
     color: #EDD9A3;
     float: left;
-    font-family: BeachSound;
+    font-family: LeagueGothic;
     text-align: center;
     padding: 10px 15px;
     text-decoration: none;
 }
 .mainnav{
-    font-size: 200%;
+    font-size: 400%;    
 }
 .othernav{
-    margin-top: 6px;
-    font-size: 125%;
+    margin-top: 10px;
+    font-size: 250%;
 }
 .content{
     background-color: #EDD9A3;
