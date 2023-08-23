@@ -6,20 +6,20 @@
     font-family: Georgia;
 }
 body{
-    background-color: #270722;
+    background-color: #110D0E;
     background-position: center center;
     background-attachment: fixed;
     background-size: cover;
-    color: #EDD9A3;
+    color: #F3E4C6;
 }
 .topnav {
     margin: 0px 100px 0px 100px;
     position: relative;
     overflow: hidden;
-    color: #EDD9A3;
+    color: #F3E4C6;
 }
 .topnav a{
-    color: #EDD9A3;
+    color: #F3E4C6;
     float: left;
     font-family: LeagueGothic;
     text-align: center;
@@ -34,8 +34,8 @@ body{
     font-size: 250%;
 }
 .content{
-    background-color: #EDD9A3;
-    color: #270722;
+    background-color: #433E33;
+    color: #F3E4C6;
     margin: 0px 115px 0px 115px;
     padding: 25px;
     text-align: justify;
@@ -47,5 +47,5 @@ body{
     }
 }
 .content a{
-    color: #EDD9A3;
+    color: #F3E4C6;
 }
