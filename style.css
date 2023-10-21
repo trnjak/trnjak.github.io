@@ -1,9 +1,17 @@
 @font-face{
-    font-family: LeagueGothic;
-    src: url("fonts/LeagueGothic.otf") format("opentype");
+    font-family: SoyuzGroteskBold;
+    src: url("fonts/SoyuzGroteskBold.otf") format("opentype");
+}
+@font-face{
+    font-family: VladivostokBold;
+    src: url("fonts/VladivostokBold.otf") format("opentype");
+}
+@font-face{
+    font-family: VladivostokRegular;
+    src: url("fonts/VladivostokRegular.otf") format("opentype");
 }
 *{
-    font-family: Georgia;
+    font-family: VladivostokRegular;
 }
 body{
     background-color: #110D0E;
@@ -21,17 +29,21 @@ body{
 .topnav a{
     color: #F3E4C6;
     float: left;
-    font-family: LeagueGothic;
+    font-family: SoyuzGroteskBold;
     text-align: center;
-    padding: 10px 15px;
+    padding: 5px 15px;
     text-decoration: none;
 }
 .mainnav{
-    font-size: 400%;    
+    font-size: 450%;    
 }
 .othernav{
-    margin-top: 25px;
+    margin-top: 20px;
     font-size: 250%;
+}
+.goal{
+    font-family: VladivostokBold;
+    font-weight: 1000;
 }
 .content{
     color: #F3E4C6;
