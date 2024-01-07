@@ -14,20 +14,20 @@
     font-family: VladivostokRegular;
 }
 body{
-    background-color: #FFF9D9;
+    background-color: #546A76;
     background-position: center center;
     background-attachment: fixed;
     background-size: cover;
-    color: #C60000;
+    color: #FAD4D8;
 }
 .topnav {
     margin: 0px 100px 0px 100px;
     position: relative;
     overflow: hidden;
-    color: #C60000;
+    color: #FAD4D8;
 }
 .topnav a{
-    color: #C60000;
+    color: #FAD4D8;
     float: left;
     font-family: SoyuzGroteskBold;
     text-align: center;
@@ -46,7 +46,7 @@ body{
     font-weight: 1000;
 }
 .content{
-    color: #C60000;
+    color: #FAD4D8;
     margin: 0px 115px 0px 115px;
     padding: 25px;
     text-align: justify;
@@ -58,5 +58,5 @@ body{
     }
 }
 .content a{
-    color: #C60000;
+    color: #FAD4D8;
 }
