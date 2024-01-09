@@ -10,6 +10,9 @@
     font-family: VladivostokRegular;
     src: url("fonts/VladivostokRegular.otf") format("opentype");
 }
+html, body{
+    margin: 0; padding: 0;
+}
 *{
     font-family: VladivostokRegular;
 }
@@ -25,38 +28,64 @@ body{
     position: relative;
     overflow: hidden;
     color: #FAD4D8;
+    grid-area: h;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
 }
 .topnav a{
     color: #FAD4D8;
     float: left;
     font-family: SoyuzGroteskBold;
     text-align: center;
-    padding: 5px 15px;
     text-decoration: none;
+    padding-right: 25px;
 }
 .mainnav{
-    font-size: 450%;    
+    font-size: 450%;
 }
 .othernav{
     margin-top: 20px;
     font-size: 250%;
 }
+.grid-container{
+    display: grid;
+    grid-template-areas: 
+    'h h h h h h'
+    'c c c c c c'
+    'n n n n n n'
+    'a a a a a a';
+    border: 2mm ridge #FAD4D8;
+    width: 50%;
+}
+.grid-container-container{
+    margin-top: 12.5%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
 .goal{
     font-family: VladivostokBold;
     font-weight: 1000;
+    text-align: center;
+    grid-area: n;
 }
 .content{
     color: #FAD4D8;
     margin: 0px 115px 0px 115px;
-    padding: 25px;
-    text-align: justify;
-}
-@media screen and (max-width: 900px) {
-    .content{
-        margin: 0px 15px 0px 15px;
-        padding: 25px;
-    }
+    grid-area: c;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
 }
 .content a{
     color: #FAD4D8;
+}
+.globespin{
+    display: grid;
+    grid-area: a;
+    justify-content: center;
+    align-content: center;
 }
