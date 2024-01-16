@@ -57,10 +57,12 @@ body{
     justify-content: center;
 }
 .goal{
+    color: #FAD4D8;
     font-family: VladivostokBold;
     font-weight: 1000;
     text-align: center;
     grid-area: g;
+    text-decoration: none;
 }
 .content{
     color: #FAD4D8;
