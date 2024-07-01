@@ -15,21 +15,21 @@
 }
 body{
     background-image: none;
-    background-color: #546A76;
+    background-color: #EAD7D1;
     background-position: center center;
     background-attachment: fixed;
     background-size: cover;
-    color: #FAD4D8;
+    color: #2E2632;
 }
 .topnav {
-    color: #FAD4D8;
+    color: #2E2632;
     grid-area: n;
     display: flex;
     justify-content: center;
 }
 .topnav a{
     float: left;
-    color: #FAD4D8;
+    color: #2E2632;
     font-family: SoyuzGroteskBold;
     text-decoration: none;
     padding-right: 25px;
@@ -49,7 +49,7 @@ body{
     'c c c c c c'
     'g g g g g g'
     'w w w w w w';
-    border: 2mm ridge #FAD4D8;
+    border: 2mm solid #2E2632;
     width: 50%;
 }
 .grid-container-container{
@@ -57,7 +57,7 @@ body{
     justify-content: center;
 }
 .goal{
-    color: #FAD4D8;
+    color: #2E2632;
     font-family: VladivostokBold;
     font-weight: 1000;
     text-align: center;
@@ -65,12 +65,12 @@ body{
     text-decoration: none;
 }
 .content{
-    color: #FAD4D8;
+    color: #2E2632;
     grid-area: c;
     text-align: center;
 }
 .content a{
-    color: #FAD4D8;
+    color: #2E2632;
 }
 .bottomgif{
     grid-area: w;
