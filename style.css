@@ -10,8 +10,16 @@
     font-family: VladivostokRegular;
     src: url("fonts/VladivostokRegular.otf") format("opentype");
 }
+@font-face{
+    font-family: WremenaRegular;
+    src: url("fonts/WremenaRegular.otf") format("opentype");
+}
+@font-face{
+    font-family: WremenaBold;
+    src: url("fonts/WremenaRegular.otf") format("opentype");
+}
 *{
-    font-family: VladivostokRegular;
+    font-family: WremenaBold;
 }
 body{
     background-image: none;
@@ -58,7 +66,7 @@ body{
 }
 .goal{
     color: #2E2632;
-    font-family: VladivostokBold;
+    font-family: WremenaBold;
     font-weight: 1000;
     text-align: center;
     grid-area: g;
