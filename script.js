@@ -16,12 +16,15 @@ function AnchorFour(){
 function Tito(){
     var tito = document.getElementById("tito");
     var tito2 = document.getElementById("tito2");
+    var tito3 = document.getElementById("tito3");
     if(tito.style.display == "none"){
         tito.style.display = "";
         tito2.style.display = "";
+        tito3.style.display = "";
     }
     else{
         tito.style.display = "none";
         tito2.style.display = "none";
+        tito3.style.display = "none";
     }
 }
