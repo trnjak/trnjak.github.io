@@ -80,7 +80,8 @@ body{
 .content a{
     color: #2E2632;
 }
-.bottomgif{
+.bottom{
+    margin-top: 1%;
     grid-area: w;
     text-align: center;
 }
