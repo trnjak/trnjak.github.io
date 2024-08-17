@@ -20,7 +20,7 @@
 }
 *{
     font-family: WremenaBold;
-}
+} 
 body{
     background-image: none;
     background-color: #42273B;
@@ -84,4 +84,17 @@ body{
     margin-top: 1%;
     grid-area: w;
     text-align: center;
+}
+
+@media screen and (max-width: 955px) {
+    .grid-container{
+        display: inline-block;
+        border: none;
+    }
+    #tito{
+        width: 100%;
+    }
+    #note{
+        display: block;
+    }
 }
