@@ -23,21 +23,21 @@
 }
 body{
     background-image: none;
-    background-color: #EAD7D1;
+    background-color: #42273B;
     background-position: center center;
     background-attachment: fixed;
     background-size: cover;
-    color: #2E2632;
+    color: #D6D4A0;
 }
 .topnav {
-    color: #2E2632;
+    color: #D6D4A0;
     grid-area: n;
     display: flex;
     justify-content: center;
 }
 .topnav a{
     float: left;
-    color: #2E2632;
+    color: #D6D4A0;
     font-family: SoyuzGroteskBold;
     text-decoration: none;
     padding-right: 25px;
@@ -57,7 +57,7 @@ body{
     'c c c c c c'
     'g g g g g g'
     'w w w w w w';
-    border: 2mm solid #2E2632;
+    border: 2mm solid #D6D4A0;
     width: 50%;
 }
 .grid-container-container{
@@ -65,7 +65,7 @@ body{
     justify-content: center;
 }
 .goal{
-    color: #2E2632;
+    color: #D6D4A0;
     font-family: WremenaBold;
     font-weight: 1000;
     text-align: center;
@@ -73,12 +73,12 @@ body{
     text-decoration: none;
 }
 .content{
-    color: #2E2632;
+    color: #D6D4A0;
     grid-area: c;
     text-align: center;
 }
 .content a{
-    color: #2E2632;
+    color: #D6D4A0;
 }
 .bottom{
     margin-top: 1%;
