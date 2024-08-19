@@ -78,7 +78,7 @@ body{
     text-align: center;
 }
 
-@media screen and (max-width: 955px) {
+@media screen and (max-width: 875.5px) {
     .grid-container{
         display: inline-block;
         border: none;
