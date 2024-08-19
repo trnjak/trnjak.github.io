@@ -3,19 +3,11 @@
     src: url("fonts/SoyuzGroteskBold.otf") format("opentype");
 }
 @font-face{
-    font-family: VladivostokBold;
-    src: url("fonts/VladivostokBold.otf") format("opentype");
-}
-@font-face{
     font-family: VladivostokRegular;
     src: url("fonts/VladivostokRegular.otf") format("opentype");
 }
 @font-face{
     font-family: WremenaRegular;
-    src: url("fonts/WremenaRegular.otf") format("opentype");
-}
-@font-face{
-    font-family: WremenaBold;
     src: url("fonts/WremenaRegular.otf") format("opentype");
 }
 *{
@@ -91,7 +83,10 @@ body{
         display: inline-block;
         border: none;
     }
-    #tito, #tito3{
+    #tito{
+        width: 100%;
+    }
+    #tito3{
         width: 100%;
     }
     #note{

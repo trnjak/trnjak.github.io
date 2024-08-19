@@ -16,15 +16,32 @@ function AnchorFour(){
 function Tito(){
     var tito = document.getElementById("tito");
     var tito2 = document.getElementById("tito2");
-    var tito3 = document.getElementById("tito3");
     if(tito.style.display == "none"){
         tito.style.display = "";
         tito2.style.display = "";
-        tito3.style.display = "";
     }
     else{
         tito.style.display = "none";
         tito2.style.display = "none";
-        tito3.style.display = "none";
+    }
+}
+
+function oott(){
+    var videoLmao = document.getElementById("videoLmao");
+    if(new Date().getDay() == 4){
+        videoLmao.style.display = "";
+    }
+    else{
+        videoLmao.style.display = "none";
+    }
+}
+
+function loadVideo(){
+    var outOfTouch = document.getElementById("outOfTouch");
+    if(outOfTouch.style.display == "none"){
+        outOfTouch.style.display = "";
+    }
+    else{
+        outOfTouch.style.display = "none";
     }
 }
