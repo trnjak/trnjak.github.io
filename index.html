@@ -9,34 +9,23 @@
     <script src="script.js"></script>
     <script src="birthday.js"></script>
     <body onload="oott()">
-        <div class="grid-container-container">
-            <div class="grid-container">
-                <header class="topnav">
-                    <div class="mainnav">
-                        <a href="https://trnjak.github.io">trnjak</a>
-                    </div>
-                    <div class="othernav">
-                        <a href="https://github.com/trnjak">github</a>
-                        <a id="anchor4" onclick="AnchorFour()" href="#" target="_blank">a4</a>
-                    </div>
-                </header>
-                <div class="content">
-                    <p>hi, i'm <b>marko</b>.</p>
-                    <p>contact me: <b>trrnjak@gmail.com</b> <a href="mailto:trrnjak@gmail.com">[MAILTO]</a></p>
-                    <p id="birthday">i'm 17 years old (no js fallback)</p>
-                    <p id="videoLmao" style="display: none;">
-                        <a class="goal" onclick="loadVideo()" href="#">HAPPY OUT OF TOUCH THURSDAY!</a>
-                        <video id="outOfTouch" style="display: none;" controls autoplay loop src="img/outoftouch.mp4" width="60%"></video>
-                    </p>
+        <nav style="position: sticky;">
+            <div class="topnav">
+                <div class="mainnav">
+                    <a href="https://trnjak.github.io">marko trnjak</a>
                 </div>
-                <a class="goal" href="#" onclick="Tito()"><b>my goal is to restore yugoslavia with my (insane) programming skills</b></a>
-                <div class="bottom">
-                    <img id="tito" style="display: none;" src="img/tito_loves_c.PNG" alt="Josip Broz Tito reading a book about the C programming language." width="60%">
-                    <p id="tito2" style="display: none; margin: -0.8%; font-weight: bold;">C first appeared in 1972, Tito died in 1980. Join the dots.</p>
-                    <p></p>
+                <div class="othernav">
+                    <a href="https://github.com/trnjak">github,</a>
+                    <a href="mailto:trrnjak@gmail.com">mail,</a>
+                    <a id="anchor4" onclick="AnchorFour()" href="#" target="_blank">fun</a>
                 </div>
-                <p id="note" hidden>note: website still not well optimized for smaller screens</p>
             </div>
+        </nav>
+        <img id="tito" class="center" style="display: none;" src="img/tito_loves_c.PNG" alt="Josip Broz Tito reading a book about the C programming language." width="60%">
+        <div class="center">
+            <video id="outOfTouch" style="display: none;" controls autoplay loop src="img/outoftouch.mp4" width="60%"></video>
         </div>
+        <a id="birthday" class="goal"><b>i'm 17 years old (no js fallback)</b></a>
+        <p id="videoLmao" style="display: none;"><a class="goal2" onclick="loadVideo()" href="#"><b>HAPPY OUT OF TOUCH THURSDAY!</b></a></p>
     </body>
 </html>

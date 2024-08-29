@@ -20,10 +20,10 @@ body{
     background-attachment: fixed;
     background-size: cover;
     color: #D6D4A0;
+    scrollbar-width: thin;
 }
 .topnav {
     color: #D6D4A0;
-    grid-area: n;
     display: flex;
     justify-content: center;
 }
@@ -36,60 +36,52 @@ body{
 }
 .mainnav{
     font-size: 450%;
+    display: flex;
+    position: absolute;
+    left: 2%;
 }
 .othernav{
-    margin-top: 20px;
-    font-size: 250%;
-}
-.grid-container{
-    margin-top: 12.5%;
-    display: grid;
-    grid-template-areas: 
-    'n n n n n n'
-    'c c c c c c'
-    'g g g g g g'
-    'w w w w w w';
-    border: 2mm solid #D6D4A0;
-    width: 50%;
-}
-.grid-container-container{
+    font-size: 450%;
     display: flex;
-    justify-content: center;
+    position: absolute;
+    right: 1%;
 }
 .goal{
     color: #D6D4A0;
     font-family: VladivostokRegular;
     font-weight: 1000;
-    text-align: center;
-    grid-area: g;
+    position: absolute;
+    bottom: 1%;
+    left: 1%;
+    text-align: justify;
     text-decoration: none;
 }
-.content{
+.goal2{
     color: #D6D4A0;
-    grid-area: c;
-    text-align: center;
+    font-family: VladivostokRegular;
+    font-weight: 1000;
+    position: absolute;
+    bottom: 1%;
+    right: 1%;
+    text-align: justify;
+    text-decoration: none;
 }
-.content a{
-    color: #D6D4A0;
+#tito, #outOfTouch{
+    margin-top: 10%;
 }
-.bottom{
-    margin-top: 1%;
-    grid-area: w;
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
 }
 
-@media screen and (max-width: 875.5px) {
-    .grid-container{
-        display: inline-block;
-        border: none;
-    }
+@media screen and (max-width: 1440px) {
     #tito{
         width: 100%;
     }
-    #tito3{
+    #outOfTouch{
         width: 100%;
-    }
-    #note{
-        display: block;
     }
 }

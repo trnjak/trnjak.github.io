@@ -13,19 +13,6 @@ function AnchorFour(){
     anchor4.href = lmao[random];
 }
 
-function Tito(){
-    var tito = document.getElementById("tito");
-    var tito2 = document.getElementById("tito2");
-    if(tito.style.display == "none"){
-        tito.style.display = "";
-        tito2.style.display = "";
-    }
-    else{
-        tito.style.display = "none";
-        tito2.style.display = "none";
-    }
-}
-
 function oott(){
     var videoLmao = document.getElementById("videoLmao");
     if(new Date().getDay() == 4){
