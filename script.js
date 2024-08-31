@@ -13,7 +13,7 @@ function AnchorFour(){
     anchor4.href = lmao[random];
 }
 
-function oott(){
+/*function oott(){
     var videoLmao = document.getElementById("videoLmao");
     if(new Date().getDay() == 4){
         videoLmao.style.display = "";
@@ -21,7 +21,7 @@ function oott(){
     else{
         videoLmao.style.display = "none";
     }
-}
+}*/
 
 function loadVideo(){
     var outOfTouch = document.getElementById("outOfTouch");

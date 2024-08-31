@@ -23,26 +23,23 @@ body{
     scrollbar-width: thin;
 }
 .topnav {
+    font-size: 450%;
     color: #D6D4A0;
     display: flex;
     justify-content: center;
+    text-align: center;
 }
 .topnav a{
     float: left;
     color: #D6D4A0;
     font-family: SoyuzGroteskBold;
     text-decoration: none;
-    padding-right: 25px;
 }
 .mainnav{
-    font-size: 450%;
-    display: flex;
     position: absolute;
     left: 2%;
 }
 .othernav{
-    font-size: 450%;
-    display: flex;
     position: absolute;
     right: 1%;
 }
@@ -78,10 +75,32 @@ body{
 }
 
 @media screen and (max-width: 1440px) {
-    #tito{
+    #tito, #outOfTouch{
         width: 100%;
     }
+}
+
+@media screen and (max-width: 1023px) {
+    .topnav{
+        font-size: 350%;
+    }
+}
+@media screen and (max-width: 800px) {
+    .topnav{
+        font-size: 250%;
+    }
+}
+@media screen and (max-width: 569px) {
+    .mainnav, .othernav{
+        position: relative;
+    }
+    .mainnav{
+        padding-right: 10%;
+    }
+    .goal2{
+        display: none;
+    }
     #outOfTouch{
-        width: 100%;
+        display: block;
     }
 }
