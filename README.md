@@ -1,5 +1,14 @@
-# trnjak.github.io
+# Personal Website
 
-This is a simple website showing very basic information about myself.   
+This is the source code for my personal landing page.
 
-Future plans include having dedicated domain and expanding the content of the site.
+## Description
+
+A minimalist, high-contrast website built with plain HTML and CSS. The design focuses on performance and simplicity without the use of external frameworks or libraries.
+
+## Technical Details
+
+- Semantic HTML5 structure
+- Responsive CSS using Flexbox and viewport units
+- Zero JavaScript
+- Custom star background via CSS clip-path
