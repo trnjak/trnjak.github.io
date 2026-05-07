@@ -13,18 +13,19 @@ body {
     font-size: 16px;
     background-color: #F4830E;
     padding: 16px;
+    gap: 30px;
+    flex-wrap: wrap;
 }
 .center-square {
-    width: 100%;
-    max-width: 333px;
-    aspect-ratio: 1 / 1;
-    max-height: 100%;
+    width: 350px;
+    height: 350px;
     padding: 18px;
     border: 2px solid #000000;
     display: flex;
     flex-direction: column;
     background-color: #FFFFFF;
     text-align: justify;
+    overflow-y: auto;
 }
 .name {
     font-weight: bold;
@@ -35,6 +36,7 @@ body {
 }
 a {
     color: #000000;
+    margin-right: 8px;
 }
 .contact {
     margin-top: 12.5%;
