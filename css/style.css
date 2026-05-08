@@ -1,3 +1,10 @@
+:root {
+    --back: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)' opacity='0.1'/%3E%3C/svg%3E");
+    --text-c: #000000;
+    --bg-c: #FDFBF7;
+    --tum-blue-light: #3070B3;
+    --tum-blue-dark: #072140;
+}
 * {
     margin: 0;
     padding: 0;
@@ -9,11 +16,12 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    color: #FFFFFF;
+    color: var(--text-c);
     font-size: 16px;
-    background-color: #000000;
+    background-color: var(--bg-c);
     padding: 20px;
     overflow-x: hidden;
+    background-image: var(--back); 
 }
 .container {
     display: flex;
@@ -31,7 +39,7 @@ body {
     transform: translate(-45%, -52%) rotate(15deg); 
     width: 80vmin;
     height: 80vmin;
-    background: linear-gradient(135deg, #CC0000 0%, #7A0000 100%);
+    background: linear-gradient(135deg, var(--tum-blue-light) 0%, var(--tum-blue-dark) 100%);
     z-index: -2;
     pointer-events: none;
     clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
@@ -44,21 +52,23 @@ body {
     transform: translate(-50%, -50%);
     font-size: 20vw;
     font-weight: 900;
-    z-index: -1;
-    color: #FFFFFF;
+#    z-index: -1;
+    color: var(--text-c);
     white-space: nowrap;
     pointer-events: none;
+    opacity: 0.5;
 }
 .card {
     width: 100%;
     max-width: 350px;
     min-height: 350px;
     padding: 24px;
-    border: 2px solid #FFFFFF;
+    border: 2px solid var(--text-c);
     display: flex;
     flex-direction: column;
-    background-color: rgba(0, 0, 0, 0.92);
+    background-color: rgba(253, 251, 247, 0.92);
     backdrop-filter: blur(3px);
+    background-image: var(--back);
 }
 .title {
     font-weight: bold;
@@ -78,17 +88,17 @@ body {
     margin-top: 0.5rem;
 }
 a {
-    color: #FFFFFF;
+    color: var(--text-c);
     text-decoration: underline;
     margin-right: 12px;
     transition: color 0.2s ease-in-out;
 }
 a:hover {
-    color: #AFAFAF;
+    color: var(--tum-blue-light);
 }
 ::selection {
-    background: #CC0000;
-    color: #FFFFFF;
+    background: var(--dark-red);
+    color: var(--text-c);
 }
 @media (max-width: 600px) {
     .bg-text {
