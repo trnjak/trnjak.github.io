@@ -52,7 +52,7 @@ body {
     transform: translate(-50%, -50%);
     font-size: 20vw;
     font-weight: 900;
-#    z-index: -1;
+    z-index: -1;
     color: var(--text-c);
     white-space: nowrap;
     pointer-events: none;
@@ -97,7 +97,7 @@ a:hover {
     color: var(--tum-blue-light);
 }
 ::selection {
-    background: var(--dark-red);
+    background: var(--tum-blue-light);
     color: var(--text-c);
 }
 @media (max-width: 600px) {
