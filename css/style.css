@@ -67,7 +67,7 @@ body {
     display: flex;
     flex-direction: column;
     background-color: rgba(253, 251, 247, 0.92);
-    backdrop-filter: blur(3px);
+    backdrop-filter: blur(2px);
     background-image: var(--back);
 }
 .title {
