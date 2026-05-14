@@ -1,7 +1,7 @@
 :root {
     --back: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)' opacity='0.1'/%3E%3C/svg%3E");
-    --text-c: #000000;
-    --bg-c: #FDFBF7;
+    --text-c: #1A1A1A;
+    --bg-c: #CCCCCC;
     --blue-light: #3070B3;
     --blue-dark: #072140;
 }
@@ -66,7 +66,7 @@ body {
     border: 2px solid var(--text-c);
     display: flex;
     flex-direction: column;
-    background-color: rgba(253, 251, 247, 0.92);
+    background-color: rgba(204, 204, 204, 0.92);
     backdrop-filter: blur(2px);
     background-image: var(--back);
 }
