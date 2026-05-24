@@ -1,9 +1,8 @@
 :root {
     --back: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)' opacity='0.1'/%3E%3C/svg%3E");
     --text-c: #1A1A1A;
-    --bg-c: #A0A0A0;
-    --blue-light: #25588D;
-    --blue-dark: #072140;
+    --bg-c: #CCCCCC;
+    --ourple: #5A3A5A;
 }
 * {
     margin: 0;
@@ -39,7 +38,7 @@ body {
     transform: translate(-45%, -52%) rotate(15deg); 
     width: 80vmin;
     height: 80vmin;
-    background: linear-gradient(135deg, var(--blue-light) 0%, var(--blue-dark) 100%);
+    background: var(--ourple);
     z-index: -2;
     pointer-events: none;
     clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
@@ -66,7 +65,7 @@ body {
     border: 2px solid var(--text-c);
     display: flex;
     flex-direction: column;
-    background-color: rgba(238, 238, 238, 0.92);
+    background-color: rgba(255, 255, 255, 0.9);
     backdrop-filter: blur(2px);
     background-image: var(--back);
 }
@@ -94,10 +93,10 @@ a {
     transition: color 0.2s ease-in-out;
 }
 a:hover {
-    color: var(--blue-light);
+    color: var(--ourple);
 }
 ::selection {
-    background: var(--blue-light);
+    background: var(--ourple);
     color: var(--bg-c);
 }
 @media (max-width: 600px) {
