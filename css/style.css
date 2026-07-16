@@ -1,7 +1,7 @@
 :root {
     --back: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='1.5' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)' opacity='0.25'/%3E%3C/svg%3E");
-    --text-c: #1A1A1A;
-    --bg-c: #CCCCCC;
+    --text-c: #000000;
+    --bg-c: #FFFFFF;
     --ourple: #5A3A5A;
 }
 @font-face {
@@ -71,7 +71,7 @@ body {
     border: 2px solid var(--text-c);
     display: flex;
     flex-direction: column;
-    background-color: rgba(245, 245, 245, 0.9);
+    background-color: rgba(255, 255, 255, 0.9);
     backdrop-filter: blur(2px);
     background-image: var(--back);
     background-blend-mode: multiply;
