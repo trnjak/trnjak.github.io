@@ -1,27 +1,31 @@
 :root {
-    --back: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)' opacity='0.1'/%3E%3C/svg%3E");
+    --back: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='1.5' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)' opacity='0.25'/%3E%3C/svg%3E");
     --text-c: #1A1A1A;
     --bg-c: #CCCCCC;
     --ourple: #5A3A5A;
+}
+@font-face {
+    font-family: fontfont;
+    src: url(IBMPlexSerif-Medium.ttf);
 }
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Menlo', 'Cascadia Code', 'Consolas', monospace;
-    font-size: 12px;
+    font-family: fontfont;
 }
 body {
+    font-size: 13px;
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
     color: var(--text-c);
-    font-size: 16px;
     background-color: var(--bg-c);
     padding: 20px;
     overflow-x: hidden;
-    background-image: var(--back); 
+    background-image: var(--back);
+    background-blend-mode: multiply;
 }
 .container {
     display: flex;
@@ -44,6 +48,7 @@ body {
     pointer-events: none;
     clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
     opacity: 0.7;
+    filter: drop-shadow(15px 15px 0px var(--text-c));
 }
 .bg-text {
     position: fixed;
@@ -69,6 +74,7 @@ body {
     background-color: rgba(245, 245, 245, 0.9);
     backdrop-filter: blur(2px);
     background-image: var(--back);
+    background-blend-mode: multiply;
 }
 .title {
     font-weight: bold;
@@ -80,6 +86,26 @@ body {
     flex-direction: column;
     gap: 1.2rem;
     flex-grow: 1;
+}
+.content img {
+    border: 2px solid var(--text-c);
+    opacity: 0.7;
+    filter: grayscale(100%) contrast(1.5) brightness(1.1);
+    mix-blend-mode: multiply;
+}
+.content img:hover {
+    opacity: 1;
+    filter: grayscale(77%) contrast(1.5) brightness(1.1);
+    mix-blend-mode: multiply;
+}
+.thing-link {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    text-decoration: none;
+}
+.media-link span {
+    text-decoration: underline;
 }
 .contact {
     margin-top: 2rem;
