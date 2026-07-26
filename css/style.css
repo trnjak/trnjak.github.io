@@ -92,6 +92,7 @@ body {
     opacity: 0.7;
     filter: grayscale(100%) contrast(1.5) brightness(1.1);
     mix-blend-mode: multiply;
+    transition: opacity 0.2s ease-in-out;
 }
 .content img:hover {
     opacity: 1;
@@ -106,6 +107,10 @@ body {
 }
 .thing-link span {
     text-decoration: underline;
+}
+.thing-link:hover img {
+    opacity: 1;
+    filter: grayscale(77%) contrast(1.5) brightness(1.1);
 }
 .contact {
     margin-top: 2rem;
