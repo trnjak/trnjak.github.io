@@ -88,7 +88,7 @@ body {
     flex-grow: 1;
 }
 .content img {
-    border: 2px solid var(--text-c);
+    max-width: 100%;
     opacity: 0.7;
     filter: grayscale(100%) contrast(1.5) brightness(1.1);
     mix-blend-mode: multiply;
@@ -104,7 +104,7 @@ body {
     gap: 15px;
     text-decoration: none;
 }
-.media-link span {
+.thing-link span {
     text-decoration: underline;
 }
 .contact {
