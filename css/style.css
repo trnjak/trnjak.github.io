@@ -1,31 +1,24 @@
 :root {
-    --back: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='1.5' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)' opacity='0.25'/%3E%3C/svg%3E");
     --text-c: #000000;
     --bg-c: #FFFFFF;
     --ourple: #5A3A5A;
-}
-@font-face {
-    font-family: fontfont;
-    src: url(IBMPlexSerif-Medium.ttf);
 }
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: fontfont;
 }
 body {
-    font-size: 13px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
     color: var(--text-c);
     background-color: var(--bg-c);
-    padding: 20px;
     overflow-x: hidden;
     background-image: var(--back);
-    background-blend-mode: multiply;
 }
 .container {
     display: flex;
@@ -119,6 +112,7 @@ body {
     margin-top: 0.5rem;
 }
 a {
+    font-weight: bold;
     color: var(--text-c);
     text-decoration: underline;
     margin-right: 12px;
