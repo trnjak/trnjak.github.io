@@ -95,14 +95,6 @@ body {
 .contact p {
     margin-top: 0.5rem;
 }
-.lilimage {
-    position: absolute;
-    top: 24px;
-    right: 24px;
-    width: 88px;
-    height: 31px;
-    image-rendering: pixelated;
-}
 a {
     font-weight: bold;
     color: var(--text-c);
