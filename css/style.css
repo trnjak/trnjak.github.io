@@ -19,6 +19,29 @@ body {
     background-color: var(--bg-c);
     overflow-x: hidden;
 }
+.corner-nav {
+    position: fixed;
+    top: 20px;
+    left: 24px;
+    z-index: 10;
+    display: flex;
+    gap: 14px;
+    letter-spacing: 0.02em;
+}
+
+.corner-nav a {
+    text-decoration: none;
+    color: var(--text-c);
+    opacity: 0.6;
+    transition: opacity 0.15s ease-in-out, color 0.15s ease-in-out;
+}
+
+.corner-nav a:hover,
+.corner-nav a.active {
+    opacity: 1;
+    text-decoration: underline;
+    color: var(--text-c);
+}
 .container {
     display: flex;
     flex-wrap: wrap;
